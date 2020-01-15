@@ -11,7 +11,7 @@ export class Dictionary<K, V> {
             this.vals.push(val);
         } else {
             this.vals[i] = val;
-        }
+        } 
     }
     get (key: K): V | undefined {
         if(this.has(key)) {

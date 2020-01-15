@@ -10,6 +10,9 @@ dictionary.forEach((key, value) => {
 dictionary.set('c', 3);
 dictionary.set('a', 5);
 console.log('=================');
+
+
+
 dictionary.forEach((key, value) => {
     console.log(`${key}:${value}`)
 })
